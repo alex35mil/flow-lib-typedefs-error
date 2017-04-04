@@ -1,0 +1,16 @@
+[options]
+module.system=node
+module.use_strict=true
+
+esproposal.class_instance_fields=enable
+esproposal.class_static_fields=enable
+
+module.system.node.resolve_dirname=node_modules
+
+suppress_type=$FlowTODO
+suppress_type=$FlowFixMe
+suppress_type=$FlowIssue
+
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe
+suppress_comment=\\(.\\|\n\\)*\\$FlowIgnoreMe
+suppress_comment=\\(.\\|\n\\)*\\$FlowIssue

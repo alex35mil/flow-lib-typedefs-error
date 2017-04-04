@@ -1,0 +1,15 @@
+{
+  "name": "flow-lib-typedefs-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "flow": "flow"
+  },
+  "dependencies": {
+    "react-validation-layer": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "flow-bin": "0.42.0"
+  }
+}
